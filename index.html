@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div id="main">
+        <div id="container_inputs"> 
+            <h1>Cadastro de Pedidos</h1>
+            <input type="text" placeholder="Cliente" id="cliente">
+            <input type="text" placeholder="Mesa" id="mesa">
+            <input type="text" placeholder="Descrição" id="descricao">
+            <button id="cadastro" onclick="criarPedido() ">Cadastrar</button>
+            <p id="msg"></p>
+            <button id="editar" class="hidden" onclick="editarPedido()">Editar Equipe</button>
+        </div>
+        <div id="container_pedidos">
+            <h1 id="titulo">Lista de Pedidos</h1>
+            <div id="listaPedidos"></div>
+        </div>
+        <script src="assets/js/script.index.js"></script>
+    </div>
+</body>
+</html>

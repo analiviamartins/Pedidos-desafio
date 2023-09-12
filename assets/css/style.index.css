@@ -1,0 +1,50 @@
+.hidden{
+    display: none !important;
+}
+
+#main{
+    display: flex;
+}
+
+#cadastro{
+    background-color: rgb(229, 171, 64);
+    color: black;
+    padding: 1%;
+    width: 15%;
+}
+
+#container_inputs{
+    background-color: rgb(245, 245, 189);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 5%;
+}
+
+input{
+    margin-bottom: 10px;
+    padding: 1%;
+}
+
+#container_pedidos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    background: rgb(245, 245, 189);
+}
+
+#container_pedidos2{
+    background-color: white;
+    width: 200px;
+    margin-bottom: 5%;
+    border-radius: 10%;
+    margin-top: 5%;
+}
+  
